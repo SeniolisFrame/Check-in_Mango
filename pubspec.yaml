@@ -1,0 +1,47 @@
+name: Check_in_mango
+description: Internship Project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  sqflite: ^1.3.1
+  path_provider : ^1.6.11
+  blue_thermal_printer: any
+  image_picker: ^0.6.7+1
+  splashscreen: any
+  flutter_launcher_icons: ^0.7.5
+  flutter_bluetooth_serial: ^0.2.2
+  image: ^2.1.12
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: 'assets/images/logo.png'
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+  - family: Roboto
+    fonts:
+      - asset: assets/fonts/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto-Medium.ttf
+        weight: 600
+      - asset: assets/fonts/Roboto-Bold.ttf
+        weight: 700
+  - family: ABeeZee
+    fonts:
+      - asset: assets/fonts/ABeeZee-Regular.ttf
+  assets:
+      - assets/images/circle.gif
+      - assets/images/ok.gif
+      - assets/images/setting.png
+      - assets/images/trash.png
